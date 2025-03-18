@@ -1,6 +1,7 @@
-# LyricsGenius
-# copyright 2024 john w. miller
-# See LICENSE for details.
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#  python3 -m lyricsgenius artist "Galante El Emperador" --max-songs 5 --save
+
 
 import sys
 import re
