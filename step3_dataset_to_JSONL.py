@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+
 import json
 
-INPUT_FILE = "dataset_lyrics.txt"
-OUTPUT_FILE = "dataset_lyrics_fixed.jsonl"
+INPUT_FILE = "datasets/dataset_lyrics.txt"
+OUTPUT_FILE = "datasets/dataset_lyrics_fixed.jsonl"
 
 with open(INPUT_FILE, "r", encoding="utf-8") as f, open(OUTPUT_FILE, "w", encoding="utf-8") as out_f:
     data = f.read().strip().split("="*50 + "\n\n")  # Split each song

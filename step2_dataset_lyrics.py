@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
+
 import os
 import json
 
 DATA_DIR = "./cleaned_data"  # Directorio con los JSON limpios
-OUTPUT_FILE = "dataset_lyrics.txt"
+OUTPUT_FILE = "datasets/dataset_lyrics.txt"
 
 with open(OUTPUT_FILE, "w", encoding="utf-8") as out_file:
     for file_name in os.listdir(DATA_DIR):
