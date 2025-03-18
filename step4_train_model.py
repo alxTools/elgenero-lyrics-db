@@ -5,101 +5,98 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments,
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 import torch
 
-# ✅ Force GPU Optimization
-torch.backends.cudnn.benchmark = True  # Optimizes for performance
-torch.backends.cuda.matmul.allow_tf32 = True  # Uses TF32 for faster training
+# ✅ Optimización para GPU
+torch.backends.cudnn.benchmark = True  # Optimiza el rendimiento
+torch.backends.cuda.matmul.allow_tf32 = True  # Usa TF32 para acelerar cálculos
 
-# ✅ Load Dataset
+# ✅ Cargar el dataset
 dataset = load_dataset("json", data_files="datasets/dataset_lyrics_fixed.jsonl", split="train")
 
-# ✅ Load Tokenizer
+# ✅ Cargar el tokenizer
 model_name = "mistralai/Mistral-7B-v0.1"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-tokenizer.pad_token = tokenizer.eos_token  # Fix padding issue
+tokenizer.pad_token = tokenizer.eos_token  # Soluciona problema de padding
 
-# ✅ Tokenize Dataset
+# ✅ Función de tokenización actualizada
 def tokenize_function(examples):
-    inputs = tokenizer(examples["input"], padding="max_length", truncation=True, max_length=128, return_tensors="pt")  # ✅ Reduced max_length to 256
-    outputs = tokenizer(examples["output"], padding="max_length", truncation=True, max_length=128, return_tensors="pt")
+    combined_inputs = []
+    for i in range(len(examples["input"])):
+        # Combina "instruction" e "input" (si existe "instruction", se separa con un salto de línea)
+        inst = examples["instruction"][i] if "instruction" in examples else ""
+        inp = examples["input"][i]
+        combined = f"{inst}\n{inp}" if inst else inp
+        combined_inputs.append(combined)
+
+    inputs = tokenizer(combined_inputs, padding="max_length", truncation=True, max_length=256, return_tensors="pt")
+    outputs = tokenizer(examples["output"], padding="max_length", truncation=True, max_length=256, return_tensors="pt")
 
     return {
         "input_ids": inputs["input_ids"],
         "attention_mask": inputs["attention_mask"],
-        "labels": outputs["input_ids"]  # Model expects `labels`
+        "labels": outputs["input_ids"]
     }
 
-dataset = dataset.map(tokenize_function, batched=True, remove_columns=["input", "output"])
+dataset = dataset.map(tokenize_function, batched=True, remove_columns=["instruction", "input", "output"])
 
-# ✅ Enable 4-bit Quantization (Using BitsAndBytesConfig)
+# ✅ Configuración para cuantización a 4-bit (usando BitsAndBytesConfig)
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
-    bnb_4bit_compute_dtype=torch.bfloat16  # Use BF16 for lower memory & better precision
+    bnb_4bit_compute_dtype=torch.bfloat16  # Usa BF16 para menor memoria y mejor precisión
 )
 
-# ✅ Load Model with QLoRA
+# ✅ Cargar el modelo con QLoRA
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    quantization_config=bnb_config,  # 🔹 Correct way to enable 4-bit
+    quantization_config=bnb_config,  # Habilita 4-bit
     torch_dtype=torch.float16,
     device_map="auto",
-    use_cache=False  # ✅ Explicitly disable cache to silence warning
+    use_cache=False  # Desactiva cache para evitar warnings
 )
 
-# ✅ Apply QLoRA (8-bit or 4-bit training)
+# ✅ Preparar el modelo para entrenamiento en k-bit
 model = prepare_model_for_kbit_training(model)
 
-# ✅ Manually Enable/Disable Gradient Checkpointing
-model.gradient_checkpointing_enable()  # ✅ If memory is a problem, keep this. Otherwise, disable.
+# ✅ Habilitar o deshabilitar el gradient checkpointing según convenga
+model.gradient_checkpointing_enable()  # Actívalo si tienes problemas de memoria
 
-# ✅ Apply LoRA
+# ✅ Aplicar LoRA
 lora_config = LoraConfig(
-    r=8, lora_alpha=32, lora_dropout=0.1, bias="none",
+    r=8,
+    lora_alpha=32,
+    lora_dropout=0.1,
+    bias="none",
     task_type="CAUSAL_LM"
 )
 model = get_peft_model(model, lora_config)
 
-# ✅ Training Arguments (Optimized)
-# training_args = TrainingArguments(
-#     output_dir="./models/reggaeton_lyrics",
-#     per_device_train_batch_size=12,  # ⬆️ Increase to maximize GPU
-#     gradient_accumulation_steps=1,  # ✅ Keep it at 1 for speed
-#     num_train_epochs=3,  # ✅ Adjust if needed
-#     save_steps=500,
-#     save_total_limit=2,
-#     logging_dir="./logs",
-#     logging_steps=10,
-#     eval_strategy="no",
-#     fp16=True  # ✅ Ensures FP16 for better speed
-# )
-
+# ✅ Configuración de entrenamiento (ajustada para estabilidad y eficiencia)
 training_args = TrainingArguments(
     output_dir="./models/reggaeton_lyrics",
-    per_device_train_batch_size=8,  # ⬆️ Adjust based on VRAM usage
-    gradient_accumulation_steps=2,  # ✅ Helps with stability
-    num_train_epochs=5,  # ⬆️ Train longer for better results
-    learning_rate=2e-5,  # ✅ Lower LR for better fine-tuning
-    save_steps=1000,  # ⬆️ Save less often to reduce overhead
-    save_total_limit=1,  # ✅ Keep last model checkpoint
+    per_device_train_batch_size=8,         # Ajusta según VRAM
+    gradient_accumulation_steps=2,           # Para mayor estabilidad
+    num_train_epochs=5,                      # Entrena por más épocas para mejores resultados
+    learning_rate=2e-5,                      # LR bajo para fine-tuning
+    save_steps=1000,                         # Menos checkpoints para reducir overhead
+    save_total_limit=1,                      # Solo se guarda el último checkpoint
     logging_dir="./logs",
-    logging_steps=50,  # ✅ Reduce log spam
+    logging_steps=50,                        # Menos logs para evitar spam
     evaluation_strategy="no",
-    fp16=True,  # ✅ Ensures FP16 for speed
-    optim="adamw_bnb_8bit",  # ✅ Faster & memory-efficient optimizer
-    report_to="none"  # ✅ Disable reporting (if using WANDB)
+    fp16=True,                               # Usa FP16 para velocidad
+    optim="adamw_bnb_8bit",                  # Optimizador rápido y eficiente en memoria
+    report_to="none"                         # Desactiva reportes (por ejemplo, WANDB)
 )
 
-
-# ✅ Define Trainer
+# ✅ Definir el Trainer
 trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=dataset
 )
 
-# ✅ Start Training
+# ✅ Iniciar el entrenamiento
 trainer.train()
 
-# ✅ Save Adapter
-model.save_pretrained("./reggaeton_lyrics")
+# ✅ Guardar el adaptador LoRA
+model.save_pretrained("./models/reggaeton_lyrics")
 
-print("✅ Training completed! Adapter saved in './models/reggaeton_lyrics'")
+print("✅ ¡Entrenamiento completado! Adaptador guardado en './models/reggaeton_lyrics'")

@@ -3,7 +3,7 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 import torch
 
-model_path = "./finetuned_reggaeton"
+model_path = "./models/reggaeton_lyrics"
 
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16, device_map="auto")
