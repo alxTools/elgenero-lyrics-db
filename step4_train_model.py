@@ -60,7 +60,7 @@ model = get_peft_model(model, lora_config)
 
 # ✅ Training Arguments (Optimized)
 # training_args = TrainingArguments(
-#     output_dir="./finetuned_reggaeton",
+#     output_dir="./models/reggaeton_lyrics",
 #     per_device_train_batch_size=12,  # ⬆️ Increase to maximize GPU
 #     gradient_accumulation_steps=1,  # ✅ Keep it at 1 for speed
 #     num_train_epochs=3,  # ✅ Adjust if needed
@@ -73,7 +73,7 @@ model = get_peft_model(model, lora_config)
 # )
 
 training_args = TrainingArguments(
-    output_dir="./finetuned_reggaeton",
+    output_dir="./models/reggaeton_lyrics",
     per_device_train_batch_size=8,  # ⬆️ Adjust based on VRAM usage
     gradient_accumulation_steps=2,  # ✅ Helps with stability
     num_train_epochs=5,  # ⬆️ Train longer for better results
@@ -100,6 +100,6 @@ trainer = Trainer(
 trainer.train()
 
 # ✅ Save Adapter
-model.save_pretrained("./finetuned_reggaeton")
+model.save_pretrained("./reggaeton_lyrics")
 
-print("✅ Training completed! Adapter saved in './finetuned_reggaeton'")
+print("✅ Training completed! Adapter saved in './models/reggaeton_lyrics'")
