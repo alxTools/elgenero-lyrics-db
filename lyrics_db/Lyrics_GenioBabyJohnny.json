@@ -1,0 +1,953 @@
+{
+ "alternate_names": [
+  "Genio Y Baby Johnny",
+  "Genio \"El Mutante\" & Baby Johnny"
+ ],
+ "api_path": "/artists/1031289",
+ "description": {
+  "plain": "?"
+ },
+ "facebook_name": null,
+ "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+ "id": 1031289,
+ "image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+ "instagram_name": null,
+ "is_meme_verified": false,
+ "is_verified": false,
+ "name": "Genio & Baby Johnny",
+ "translation_artist": false,
+ "twitter_name": null,
+ "url": "https://genius.com/artists/Genio-and-baby-johnny",
+ "current_user_metadata": {
+  "permissions": [
+   "view_activity_stream",
+   "view_discography"
+  ],
+  "excluded_permissions": [
+   "edit",
+   "edit_images",
+   "edit_names",
+   "edit_anything",
+   "merge",
+   "sort_artist_songs",
+   "follow",
+   "view_contribution_opportunities",
+   "edit_translation_artist",
+   "split",
+   "see_short_id"
+  ],
+  "interactions": {
+   "following": false
+  }
+ },
+ "followers_count": 0,
+ "description_annotation": {
+  "_type": "referent",
+  "annotator_id": 1221815,
+  "annotator_login": "GniwrY14",
+  "api_path": "/referents/10841923",
+  "classification": "needs_exegesis",
+  "fragment": "Genio & Baby Johnny",
+  "id": 10841923,
+  "is_description": true,
+  "path": "/10841923/Genio-and-baby-johnny/Genio-and-baby-johnny",
+  "range": {
+   "content": "Genio & Baby Johnny"
+  },
+  "song_id": null,
+  "url": "https://genius.com/10841923/Genio-and-baby-johnny/Genio-and-baby-johnny",
+  "verified_annotator_ids": [],
+  "annotatable": {
+   "api_path": "/artists/1031289",
+   "context": null,
+   "id": 1031289,
+   "image_url": "https://assets.genius.com/images/default_avatar_32.png?1739554459",
+   "link_title": "Genio & Baby Johnny",
+   "title": "Genio & Baby Johnny",
+   "type": "Artist",
+   "url": "https://genius.com/artists/Genio-and-baby-johnny"
+  },
+  "annotations": [
+   {
+    "api_path": "/annotations/10841923",
+    "body": {
+     "plain": ""
+    },
+    "comment_count": 0,
+    "community": true,
+    "custom_preview": null,
+    "has_voters": false,
+    "id": 10841923,
+    "pinned": false,
+    "share_url": "https://genius.com/10841923",
+    "source": null,
+    "state": "needs_exegesis",
+    "url": "https://genius.com/10841923/Genio-and-baby-johnny/Genio-and-baby-johnny",
+    "verified": false,
+    "votes_total": 0,
+    "current_user_metadata": {
+     "permissions": [],
+     "excluded_permissions": [
+      "vote",
+      "edit",
+      "cosign",
+      "uncosign",
+      "destroy",
+      "accept",
+      "reject",
+      "see_unreviewed",
+      "clear_votes",
+      "propose_edit_to",
+      "pin_to_profile",
+      "unpin_from_profile",
+      "update_source",
+      "edit_custom_preview",
+      "report_as_abusive",
+      "create_comment"
+     ],
+     "interactions": {
+      "cosign": false,
+      "pyong": false,
+      "vote": null
+     },
+     "iq_by_action": {}
+    },
+    "authors": [
+     {
+      "attribution": 1.0,
+      "pinned_role": null,
+      "user": {
+       "api_path": "/users/1221815",
+       "avatar": {
+        "tiny": {
+         "url": "https://images.genius.com/avatars/tiny/b012b5dd2441f3edc0c72b14bf2da0c4",
+         "bounding_box": {
+          "width": 16,
+          "height": 16
+         }
+        },
+        "thumb": {
+         "url": "https://images.genius.com/avatars/thumb/b012b5dd2441f3edc0c72b14bf2da0c4",
+         "bounding_box": {
+          "width": 32,
+          "height": 32
+         }
+        },
+        "small": {
+         "url": "https://images.genius.com/avatars/small/b012b5dd2441f3edc0c72b14bf2da0c4",
+         "bounding_box": {
+          "width": 100,
+          "height": 100
+         }
+        },
+        "medium": {
+         "url": "https://images.genius.com/avatars/medium/b012b5dd2441f3edc0c72b14bf2da0c4",
+         "bounding_box": {
+          "width": 300,
+          "height": 400
+         }
+        }
+       },
+       "header_image_url": "https://images.genius.com/avatars/medium/b012b5dd2441f3edc0c72b14bf2da0c4",
+       "human_readable_role_for_display": "Contributor",
+       "id": 1221815,
+       "iq": 12679,
+       "login": "GniwrY14",
+       "name": "GniwrY14",
+       "role_for_display": "contributor",
+       "url": "https://genius.com/GniwrY14",
+       "current_user_metadata": {
+        "permissions": [],
+        "excluded_permissions": [
+         "follow"
+        ],
+        "interactions": {
+         "following": false
+        }
+       }
+      }
+     }
+    ],
+    "cosigned_by": [],
+    "rejection_comment": null,
+    "verified_by": null
+   }
+  ]
+ },
+ "user": null,
+ "songs": [
+  {
+   "annotation_count": 0,
+   "api_path": "/songs/7624473",
+   "artist_names": "Genio & Baby Johnny",
+   "full_title": "Ella Me Pide Sexo by\u00a0Genio\u00a0& Baby Johnny",
+   "header_image_thumbnail_url": "https://images.genius.com/90054b45268cdaea5137fb683251d57b.300x300x1.jpg",
+   "header_image_url": "https://images.genius.com/90054b45268cdaea5137fb683251d57b.640x640x1.jpg",
+   "id": 7624473,
+   "lyrics_owner_id": 9373007,
+   "lyrics_state": "complete",
+   "path": "/Genio-and-baby-johnny-ella-me-pide-sexo-lyrics",
+   "primary_artist_names": "Genio & Baby Johnny",
+   "pyongs_count": null,
+   "relationships_index_url": "https://genius.com/Genio-and-baby-johnny-ella-me-pide-sexo-sample",
+   "release_date_components": {
+    "year": 2010,
+    "month": 10,
+    "day": 8
+   },
+   "release_date_for_display": "October 8, 2010",
+   "release_date_with_abbreviated_month_for_display": "Oct. 8, 2010",
+   "song_art_image_thumbnail_url": "https://images.genius.com/90054b45268cdaea5137fb683251d57b.300x300x1.jpg",
+   "song_art_image_url": "https://images.genius.com/90054b45268cdaea5137fb683251d57b.640x640x1.jpg",
+   "stats": {
+    "accepted_annotations": 0,
+    "contributors": 1,
+    "iq_earners": 1,
+    "transcribers": 1,
+    "unreviewed_annotations": 0,
+    "verified_annotations": 0,
+    "hot": false
+   },
+   "title": "Ella Me Pide Sexo",
+   "title_with_featured": "Ella Me Pide Sexo",
+   "url": "https://genius.com/Genio-and-baby-johnny-ella-me-pide-sexo-lyrics",
+   "featured_artists": [],
+   "primary_artist": {
+    "api_path": "/artists/1031289",
+    "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+    "id": 1031289,
+    "image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+    "is_meme_verified": false,
+    "is_verified": false,
+    "name": "Genio & Baby Johnny",
+    "url": "https://genius.com/artists/Genio-and-baby-johnny"
+   },
+   "primary_artists": [
+    {
+     "api_path": "/artists/1031289",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+     "id": 1031289,
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+     "is_meme_verified": false,
+     "is_verified": false,
+     "name": "Genio & Baby Johnny",
+     "url": "https://genius.com/artists/Genio-and-baby-johnny"
+    }
+   ],
+   "apple_music_id": null,
+   "apple_music_player_url": "https://genius.com/songs/7624473/apple_music_player",
+   "description": {
+    "plain": "?"
+   },
+   "embed_content": "<div id='rg_embed_link_7624473' class='rg_embed_link' data-song-id='7624473'>Read <a href='https://genius.com/Genio-and-baby-johnny-ella-me-pide-sexo-lyrics'>\u201cElla Me Pide Sexo\u201d by Genio\u00a0& Baby Johnny</a> on Genius</div> <script crossorigin src='//genius.com/songs/7624473/embed.js'></script>",
+   "featured_video": false,
+   "language": "es",
+   "recording_location": null,
+   "release_date": "2010-10-08",
+   "current_user_metadata": {
+    "permissions": [
+     "view_apple_music_player",
+     "view_recommendations",
+     "view_song_story_gallery"
+    ],
+    "excluded_permissions": [
+     "follow",
+     "award_transcription_iq",
+     "remove_transcription_iq",
+     "see_pageviews",
+     "pyong",
+     "edit_lyrics",
+     "view_annotation_engagement_data",
+     "publish",
+     "unpublish",
+     "edit_spotify_details",
+     "hide",
+     "unhide",
+     "toggle_featured_video",
+     "add_pinned_annotation_to",
+     "add_community_annotation_to",
+     "destroy",
+     "mark_as_not_spam",
+     "edit_spotify_annotations_for",
+     "verify_lyrics",
+     "unverify_lyrics",
+     "edit_anything",
+     "edit_any_media",
+     "edit",
+     "rename",
+     "edit_tags",
+     "reindex",
+     "view_lyrics_synchronization",
+     "enable_media",
+     "disable_media",
+     "edit_lyrics_or_annotation_brackets",
+     "see_editorial_indicators",
+     "view_attribution_visualization",
+     "edit_annotation_brackets",
+     "preview_lyrics_for_export",
+     "hide_apple_player",
+     "unhide_apple_player",
+     "trigger_apple_match",
+     "mark_lyrics_evaluation_as_complete",
+     "mark_lyrics_evaluation_as_staff_approved",
+     "unmark_lyrics_evaluation_as_complete",
+     "mark_lyrics_evaluation_as_un_staff_approved",
+     "view_transcriber_media_player",
+     "override_apple_match",
+     "set_song_color_gradient",
+     "mark_as_hot",
+     "unmark_as_hot",
+     "view_relationships_page",
+     "view_mark_complete_explanatory_tooltip",
+     "edit_youtube_url",
+     "edit_soundcloud_url",
+     "edit_spotify_uuid",
+     "edit_vevo_url",
+     "create_comment",
+     "moderate_annotations",
+     "create_annotation",
+     "see_short_id",
+     "manage_chart_item",
+     "create_tag",
+     "propose_lyrics_edit",
+     "view_lyrics_edit_proposals_on_song",
+     "create_question",
+     "answer_question_with_source",
+     "create_additional_role",
+     "add_qa",
+     "pin_qa"
+    ],
+    "interactions": {
+     "pyong": false,
+     "following": false
+    },
+    "relationships": {},
+    "iq_by_action": {}
+   },
+   "song_art_primary_color": "#5db7b8",
+   "song_art_secondary_color": "#effcfa",
+   "song_art_text_color": "#000",
+   "album": null,
+   "custom_performances": [],
+   "description_annotation": {
+    "_type": "referent",
+    "annotator_id": 9373007,
+    "annotator_login": "IgnacioBravo",
+    "api_path": "/referents/24950724",
+    "classification": "needs_exegesis",
+    "fragment": "Ella Me Pide Sexo",
+    "id": 24950724,
+    "is_description": true,
+    "path": "/24950724/Genio-and-baby-johnny-ella-me-pide-sexo/Ella-me-pide-sexo",
+    "range": {
+     "content": "Ella Me Pide Sexo"
+    },
+    "song_id": 7624473,
+    "url": "https://genius.com/24950724/Genio-and-baby-johnny-ella-me-pide-sexo/Ella-me-pide-sexo",
+    "verified_annotator_ids": [],
+    "annotatable": {
+     "api_path": "/songs/7624473",
+     "client_timestamps": {
+      "updated_by_human_at": 1729798616,
+      "lyrics_updated_at": 1729798616
+     },
+     "context": "Genio & Baby Johnny",
+     "id": 7624473,
+     "image_url": "https://images.genius.com/90054b45268cdaea5137fb683251d57b.640x640x1.jpg",
+     "link_title": "Ella Me Pide Sexo by\u00a0Genio\u00a0& Baby Johnny",
+     "title": "Ella Me Pide Sexo",
+     "type": "Song",
+     "url": "https://genius.com/Genio-and-baby-johnny-ella-me-pide-sexo-lyrics"
+    },
+    "annotations": [
+     {
+      "api_path": "/annotations/24950724",
+      "body": {
+       "plain": ""
+      },
+      "comment_count": 0,
+      "community": true,
+      "custom_preview": null,
+      "has_voters": false,
+      "id": 24950724,
+      "pinned": false,
+      "share_url": "https://genius.com/24950724",
+      "source": null,
+      "state": "needs_exegesis",
+      "url": "https://genius.com/24950724/Genio-and-baby-johnny-ella-me-pide-sexo/Ella-me-pide-sexo",
+      "verified": false,
+      "votes_total": 0,
+      "current_user_metadata": {
+       "permissions": [],
+       "excluded_permissions": [
+        "vote",
+        "edit",
+        "cosign",
+        "uncosign",
+        "destroy",
+        "accept",
+        "reject",
+        "see_unreviewed",
+        "clear_votes",
+        "propose_edit_to",
+        "pin_to_profile",
+        "unpin_from_profile",
+        "update_source",
+        "edit_custom_preview",
+        "report_as_abusive",
+        "create_comment"
+       ],
+       "interactions": {
+        "cosign": false,
+        "pyong": false,
+        "vote": null
+       },
+       "iq_by_action": {}
+      },
+      "authors": [
+       {
+        "attribution": 1.0,
+        "pinned_role": null,
+        "user": {
+         "api_path": "/users/9373007",
+         "avatar": {
+          "tiny": {
+           "url": "https://images.genius.com/avatars/tiny/12e4f9503753f8bddb83d0ea11845ce3",
+           "bounding_box": {
+            "width": 16,
+            "height": 16
+           }
+          },
+          "thumb": {
+           "url": "https://images.genius.com/avatars/thumb/12e4f9503753f8bddb83d0ea11845ce3",
+           "bounding_box": {
+            "width": 32,
+            "height": 32
+           }
+          },
+          "small": {
+           "url": "https://images.genius.com/avatars/small/12e4f9503753f8bddb83d0ea11845ce3",
+           "bounding_box": {
+            "width": 100,
+            "height": 100
+           }
+          },
+          "medium": {
+           "url": "https://images.genius.com/avatars/medium/12e4f9503753f8bddb83d0ea11845ce3",
+           "bounding_box": {
+            "width": 300,
+            "height": 400
+           }
+          }
+         },
+         "header_image_url": "https://images.genius.com/avatars/medium/12e4f9503753f8bddb83d0ea11845ce3",
+         "human_readable_role_for_display": "Contributor",
+         "id": 9373007,
+         "iq": 5152,
+         "login": "IgnacioBravo",
+         "name": "IgnacioBravo",
+         "role_for_display": "contributor",
+         "url": "https://genius.com/IgnacioBravo",
+         "current_user_metadata": {
+          "permissions": [],
+          "excluded_permissions": [
+           "follow"
+          ],
+          "interactions": {
+           "following": false
+          }
+         }
+        }
+       }
+      ],
+      "cosigned_by": [],
+      "rejection_comment": null,
+      "verified_by": null
+     }
+    ]
+   },
+   "lyrics_marked_complete_by": null,
+   "lyrics_marked_staff_approved_by": null,
+   "media": [
+    {
+     "provider": "youtube",
+     "start": 0,
+     "type": "video",
+     "url": "https://www.youtube.com/watch?v=Zzxjxs8b-NM"
+    }
+   ],
+   "producer_artists": [
+    {
+     "api_path": "/artists/1415135",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+     "id": 1415135,
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+     "is_meme_verified": false,
+     "is_verified": false,
+     "name": "Teletubi (Producer)",
+     "url": "https://genius.com/artists/Teletubi-producer"
+    },
+    {
+     "api_path": "/artists/1012313",
+     "header_image_url": "https://images.genius.com/391897e910714495581ed6d9883e1fc5.400x400x1.jpg",
+     "id": 1012313,
+     "image_url": "https://images.genius.com/391897e910714495581ed6d9883e1fc5.400x400x1.jpg",
+     "is_meme_verified": false,
+     "is_verified": false,
+     "name": "Lil Wizard",
+     "url": "https://genius.com/artists/Lil-wizard"
+    }
+   ],
+   "song_relationships": [
+    {
+     "relationship_type": "samples",
+     "type": "samples",
+     "songs": []
+    },
+    {
+     "relationship_type": "sampled_in",
+     "type": "sampled_in",
+     "songs": []
+    },
+    {
+     "relationship_type": "interpolates",
+     "type": "interpolates",
+     "songs": []
+    },
+    {
+     "relationship_type": "interpolated_by",
+     "type": "interpolated_by",
+     "songs": []
+    },
+    {
+     "relationship_type": "cover_of",
+     "type": "cover_of",
+     "songs": []
+    },
+    {
+     "relationship_type": "covered_by",
+     "type": "covered_by",
+     "songs": []
+    },
+    {
+     "relationship_type": "remix_of",
+     "type": "remix_of",
+     "songs": []
+    },
+    {
+     "relationship_type": "remixed_by",
+     "type": "remixed_by",
+     "songs": []
+    },
+    {
+     "relationship_type": "live_version_of",
+     "type": "live_version_of",
+     "songs": []
+    },
+    {
+     "relationship_type": "performed_live_as",
+     "type": "performed_live_as",
+     "songs": []
+    },
+    {
+     "relationship_type": "translation_of",
+     "type": "translation_of",
+     "songs": []
+    },
+    {
+     "relationship_type": "translations",
+     "type": "translations",
+     "songs": []
+    }
+   ],
+   "translation_songs": [],
+   "verified_annotations_by": [],
+   "verified_contributors": [],
+   "verified_lyrics_by": [],
+   "writer_artists": [
+    {
+     "api_path": "/artists/1029526",
+     "header_image_url": "https://images.genius.com/0c845dc0bbb80aa20bd57e72b093a473.1000x1000x1.jpg",
+     "id": 1029526,
+     "image_url": "https://images.genius.com/0c845dc0bbb80aa20bd57e72b093a473.1000x1000x1.jpg",
+     "is_meme_verified": false,
+     "is_verified": false,
+     "name": "Baby Johnny",
+     "url": "https://genius.com/artists/Baby-johnny"
+    },
+    {
+     "api_path": "/artists/980829",
+     "header_image_url": "https://images.genius.com/95706142702609212a5508f94526a7ab.1000x563x1.jpg",
+     "id": 980829,
+     "image_url": "https://images.genius.com/b6ce30fc8c64e6665e2f5178d960d228.1000x1000x1.jpg",
+     "is_meme_verified": false,
+     "is_verified": false,
+     "name": "Genio La Musa",
+     "url": "https://genius.com/artists/Genio-la-musa"
+    }
+   ],
+   "artist": "Genio & Baby Johnny",
+   "lyrics": "1 ContributorElla Me Pide Sexo Lyrics[Estribillo: Baby Johnny]\nElla me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\n\nY Ella me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\nY Ella me pide sexo...\n\n[Verso 1: Genio \"El Mutante\"]\nElla me pide sexo y yo loco con eso\nMe tir\u00e9 la maroma a 100 por el expreso\nTu sabes el proceso, te regalo un beso (muah)\nEso te dan ganas de bajar el queso\n\nMamita I like you y esos ojitos cambian de colores\nO ser\u00e1 el krippy que nos trajo Matthew\nEn la terraza o el patiu\nTe doy con 30mil kilovatiu\nY ma\u00f1ana tu tranquila, I got you\n\nTu quieres conmigo, no lo niegues\nTu quieres que te d\u00e9 como se debe\nYo soy el que te eleva pa\u2019 las nubes\nY soy el que te baja, el que te sube (El Mutante Mami!)\nYou might also like[Estribillo: Baby Johnny]\nElla me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\n\nY Ella me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\nY Ella me pide sexo...\n\n[Puente: Baby Johnny]\nMe gusta tu ropita interior (obligao mami)\nPero as\u00ed no es que te quiero\n\u00bfPor qu\u00e9 no te la quitas mejor?\nY hacemos el amor\u2026\n\nMe hice due\u00f1o de la noche y el cuarto en llamas\nHice que la cama se rompa y to\u2019\nDespu\u00e9s de todo me qued\u00e9 loco con ella\nPero mami vamo\u2019 arriba que esto no se acab\u00f3\n\nMe hice due\u00f1o de la noche y el cuarto en llamas\nHice que la cama se rompa y to\u2019\nDespu\u00e9s de todo me qued\u00e9 loco con ella\nPero mami vamo\u2019 arriba que esto no se acab\u00f3\n[Verso 2: Genio \"El Mutante\"]\nY le sigo dando pa abajo\nConmigo voa\u2019 hacerle el split\nQuiere que me guille de flexible como jet li\nQue mantenga mi balance y que no cause un desliz\nMami yo se lo que hago acu\u00e9state en la cama please\n\nSalvaje, al\u00f3cate y montate en un viaje\nPero tr\u00e9pateme encima, mamita no te bajes\nQue esto es como una escena mai\u2019 sin montaje\nO te lo quitas tu misma o te arranco ese traje\n\nTr\u00e9pateme en cima, tr\u00e9pateme encima\nHaz lo que tu quieras pero no te me salgas de encima\nTr\u00e9pateme en cima, tr\u00e9pateme encima\nTu quieres agresividad, te cargo hasta la marquesina\n\n[Estribillo: Baby Johnny]\nElla me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\n\nY Ella me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\nY Ella me pide sexo...\n[Outro]\nAja! Genio & Baby Johnny nigga\nLos mutantes obligao\nY andamos con el m\u00e9dico brujo\nLil Wizard, rastafari nigga\nOye, dimelo teletubbi, en los controles tan muy duros nigga\nLa calidad muy alta\nVicente\nSeguiremos dejando huellas\nHuellas Corp nigga\nHigh Class Family\nOmi, esta gente son unos locos\nGenio & Baby Johnny\nLil Wizard\nSientense ni\u00f1os\nOmar la pauta\nLa Mutacion Global\nTamos Muy Duro nigga\nKombete MusicEmbed\n[Estribillo: Baby Johnny]\nElla me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\n\nY Ella me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\nY Ella me pide sexo...\n\n[Verso 1: Genio \"El Mutante\"]\nElla me pide sexo y yo loco con eso\nMe tir\u00e9 la maroma a 100 por el expreso\nTu sabes el proceso, te regalo un beso (muah)\nEso te dan ganas de bajar el queso\n\nMamita I like you y esos ojitos cambian de colores\nO ser\u00e1 el krippy que nos trajo Matthew\nEn la terraza o el patiu\nTe doy con 30mil kilovatiu\nY ma\u00f1ana tu tranquila, I got you\n\nTu quieres conmigo, no lo niegues\nTu quieres que te d\u00e9 como se debe\nYo soy el que te eleva pa\u2019 las nubes\nY soy el que te baja, el que te sube (El Mutante Mami!)\n\n[Estribillo: Baby Johnny]\nElla me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\n\nY Ella me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\nY Ella me pide sexo...\n\n[Puente: Baby Johnny]\nMe gusta tu ropita interior (obligao mami)\nPero as\u00ed no es que te quiero\n\u00bfPor qu\u00e9 no te la quitas mejor?\nY hacemos el amor\u2026\n\nMe hice due\u00f1o de la noche y el cuarto en llamas\nHice que la cama se rompa y to\u2019\nDespu\u00e9s de todo me qued\u00e9 loco con ella\nPero mami vamo\u2019 arriba que esto no se acab\u00f3\n\nMe hice due\u00f1o de la noche y el cuarto en llamas\nHice que la cama se rompa y to\u2019\nDespu\u00e9s de todo me qued\u00e9 loco con ella\nPero mami vamo\u2019 arriba que esto no se acab\u00f3\n\n[Verso 2: Genio \"El Mutante\"]\nY le sigo dando pa abajo\nConmigo voa\u2019 hacerle el split\nQuiere que me guille de flexible como jet li\nQue mantenga mi balance y que no cause un desliz\nMami yo se lo que hago acu\u00e9state en la cama please\n\nSalvaje, al\u00f3cate y montate en un viaje\nPero tr\u00e9pateme encima, mamita no te bajes\nQue esto es como una escena mai\u2019 sin montaje\nO te lo quitas tu misma o te arranco ese traje\n\nTr\u00e9pateme en cima, tr\u00e9pateme encima\nHaz lo que tu quieras pero no te me salgas de encima\nTr\u00e9pateme en cima, tr\u00e9pateme encima\nTu quieres agresividad, te cargo hasta la marquesina\n\n[Estribillo: Baby Johnny]\nElla me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\n\nY Ella me pide sexo\nQue la agarre por el pelo y la maltrate\nPero que le ense\u00f1e que ella no sabe na\u2019 de eso\nSi me pongo travieso, le sigo el proceso, un trago y un beso\nY Ella me pide sexo...\n\n[Outro]\nAja! Genio & Baby Johnny nigga\nLos mutantes obligao\nY andamos con el m\u00e9dico brujo\nLil Wizard, rastafari nigga\nOye, dimelo teletubbi, en los controles tan muy duros nigga\nLa calidad muy alta\nVicente\nSeguiremos dejando huellas\nHuellas Corp nigga\nHigh Class Family\nOmi, esta gente son unos locos\nGenio & Baby Johnny\nLil Wizard\nSientense ni\u00f1os\nOmar la pauta\nLa Mutacion Global\nTamos Muy Duro nigga\nKombete Music"
+  },
+  {
+   "annotation_count": 1,
+   "api_path": "/songs/1968920",
+   "artist_names": "Genio & Baby Johnny",
+   "full_title": "Que es la que hay by\u00a0Genio\u00a0& Baby Johnny",
+   "header_image_thumbnail_url": "https://assets.genius.com/images/default_cover_image.png?1739554459",
+   "header_image_url": "https://assets.genius.com/images/default_cover_image.png?1739554459",
+   "id": 1968920,
+   "lyrics_owner_id": 1549345,
+   "lyrics_state": "complete",
+   "path": "/Genio-and-baby-johnny-que-es-la-que-hay-lyrics",
+   "primary_artist_names": "Genio & Baby Johnny",
+   "pyongs_count": null,
+   "relationships_index_url": "https://genius.com/Genio-and-baby-johnny-que-es-la-que-hay-sample",
+   "release_date_components": null,
+   "release_date_for_display": null,
+   "release_date_with_abbreviated_month_for_display": null,
+   "song_art_image_thumbnail_url": "https://assets.genius.com/images/default_cover_image.png?1739554459",
+   "song_art_image_url": "https://assets.genius.com/images/default_cover_image.png?1739554459",
+   "stats": {
+    "accepted_annotations": 0,
+    "contributors": 1,
+    "iq_earners": 0,
+    "transcribers": 1,
+    "unreviewed_annotations": 0,
+    "verified_annotations": 0,
+    "hot": false
+   },
+   "title": "Que es la que hay",
+   "title_with_featured": "Que es la que hay",
+   "url": "https://genius.com/Genio-and-baby-johnny-que-es-la-que-hay-lyrics",
+   "featured_artists": [],
+   "primary_artist": {
+    "api_path": "/artists/1031289",
+    "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+    "id": 1031289,
+    "image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+    "is_meme_verified": false,
+    "is_verified": false,
+    "name": "Genio & Baby Johnny",
+    "url": "https://genius.com/artists/Genio-and-baby-johnny"
+   },
+   "primary_artists": [
+    {
+     "api_path": "/artists/1031289",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+     "id": 1031289,
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1739554459",
+     "is_meme_verified": false,
+     "is_verified": false,
+     "name": "Genio & Baby Johnny",
+     "url": "https://genius.com/artists/Genio-and-baby-johnny"
+    }
+   ],
+   "apple_music_id": "557800999",
+   "apple_music_player_url": "https://genius.com/songs/1968920/apple_music_player",
+   "description": {
+    "plain": "?"
+   },
+   "embed_content": "<div id='rg_embed_link_1968920' class='rg_embed_link' data-song-id='1968920'>Read <a href='https://genius.com/Genio-and-baby-johnny-que-es-la-que-hay-lyrics'>\u201cQue es la que hay\u201d by Genio\u00a0& Baby Johnny</a> on Genius</div> <script crossorigin src='//genius.com/songs/1968920/embed.js'></script>",
+   "featured_video": false,
+   "language": "es",
+   "recording_location": null,
+   "release_date": null,
+   "current_user_metadata": {
+    "permissions": [
+     "view_apple_music_player",
+     "view_recommendations",
+     "view_song_story_gallery"
+    ],
+    "excluded_permissions": [
+     "follow",
+     "award_transcription_iq",
+     "remove_transcription_iq",
+     "see_pageviews",
+     "pyong",
+     "edit_lyrics",
+     "view_annotation_engagement_data",
+     "publish",
+     "unpublish",
+     "edit_spotify_details",
+     "hide",
+     "unhide",
+     "toggle_featured_video",
+     "add_pinned_annotation_to",
+     "add_community_annotation_to",
+     "destroy",
+     "mark_as_not_spam",
+     "edit_spotify_annotations_for",
+     "verify_lyrics",
+     "unverify_lyrics",
+     "edit_anything",
+     "edit_any_media",
+     "edit",
+     "rename",
+     "edit_tags",
+     "reindex",
+     "view_lyrics_synchronization",
+     "enable_media",
+     "disable_media",
+     "edit_lyrics_or_annotation_brackets",
+     "see_editorial_indicators",
+     "view_attribution_visualization",
+     "edit_annotation_brackets",
+     "preview_lyrics_for_export",
+     "hide_apple_player",
+     "unhide_apple_player",
+     "trigger_apple_match",
+     "mark_lyrics_evaluation_as_complete",
+     "mark_lyrics_evaluation_as_staff_approved",
+     "unmark_lyrics_evaluation_as_complete",
+     "mark_lyrics_evaluation_as_un_staff_approved",
+     "view_transcriber_media_player",
+     "override_apple_match",
+     "set_song_color_gradient",
+     "mark_as_hot",
+     "unmark_as_hot",
+     "view_relationships_page",
+     "view_mark_complete_explanatory_tooltip",
+     "edit_youtube_url",
+     "edit_soundcloud_url",
+     "edit_spotify_uuid",
+     "edit_vevo_url",
+     "create_comment",
+     "moderate_annotations",
+     "create_annotation",
+     "see_short_id",
+     "manage_chart_item",
+     "create_tag",
+     "propose_lyrics_edit",
+     "view_lyrics_edit_proposals_on_song",
+     "create_question",
+     "answer_question_with_source",
+     "create_additional_role",
+     "add_qa",
+     "pin_qa"
+    ],
+    "interactions": {
+     "pyong": false,
+     "following": false
+    },
+    "relationships": {},
+    "iq_by_action": {}
+   },
+   "song_art_primary_color": "#E9E9E9",
+   "song_art_secondary_color": "#E9E9E9",
+   "song_art_text_color": "#000000",
+   "album": null,
+   "custom_performances": [],
+   "description_annotation": {
+    "_type": "referent",
+    "annotator_id": 1549345,
+    "annotator_login": "pressburg",
+    "api_path": "/referents/6655375",
+    "classification": "needs_exegesis",
+    "fragment": "Que es la que hay",
+    "id": 6655375,
+    "is_description": true,
+    "path": "/6655375/Genio-and-baby-johnny-que-es-la-que-hay/Que-es-la-que-hay",
+    "range": {
+     "content": "Que es la que hay"
+    },
+    "song_id": 1968920,
+    "url": "https://genius.com/6655375/Genio-and-baby-johnny-que-es-la-que-hay/Que-es-la-que-hay",
+    "verified_annotator_ids": [],
+    "annotatable": {
+     "api_path": "/songs/1968920",
+     "client_timestamps": {
+      "updated_by_human_at": 1446156925,
+      "lyrics_updated_at": 1432928567
+     },
+     "context": "Genio & Baby Johnny",
+     "id": 1968920,
+     "image_url": "https://assets.genius.com/images/default_cover_image.png?1739554459",
+     "link_title": "Que es la que hay by\u00a0Genio\u00a0& Baby Johnny",
+     "title": "Que es la que hay",
+     "type": "Song",
+     "url": "https://genius.com/Genio-and-baby-johnny-que-es-la-que-hay-lyrics"
+    },
+    "annotations": [
+     {
+      "api_path": "/annotations/6655375",
+      "body": {
+       "plain": ""
+      },
+      "comment_count": 0,
+      "community": true,
+      "custom_preview": null,
+      "has_voters": false,
+      "id": 6655375,
+      "pinned": false,
+      "share_url": "https://genius.com/6655375",
+      "source": null,
+      "state": "needs_exegesis",
+      "url": "https://genius.com/6655375/Genio-and-baby-johnny-que-es-la-que-hay/Que-es-la-que-hay",
+      "verified": false,
+      "votes_total": 0,
+      "current_user_metadata": {
+       "permissions": [],
+       "excluded_permissions": [
+        "vote",
+        "edit",
+        "cosign",
+        "uncosign",
+        "destroy",
+        "accept",
+        "reject",
+        "see_unreviewed",
+        "clear_votes",
+        "propose_edit_to",
+        "pin_to_profile",
+        "unpin_from_profile",
+        "update_source",
+        "edit_custom_preview",
+        "report_as_abusive",
+        "create_comment"
+       ],
+       "interactions": {
+        "cosign": false,
+        "pyong": false,
+        "vote": null
+       },
+       "iq_by_action": {}
+      },
+      "authors": [
+       {
+        "attribution": 1.0,
+        "pinned_role": null,
+        "user": {
+         "api_path": "/users/1549345",
+         "avatar": {
+          "tiny": {
+           "url": "https://images.rapgenius.com/avatars/tiny/04d14b7ca5774ab1736acddc83edd261",
+           "bounding_box": {
+            "width": 16,
+            "height": 16
+           }
+          },
+          "thumb": {
+           "url": "https://images.rapgenius.com/avatars/thumb/04d14b7ca5774ab1736acddc83edd261",
+           "bounding_box": {
+            "width": 32,
+            "height": 32
+           }
+          },
+          "small": {
+           "url": "https://images.rapgenius.com/avatars/small/04d14b7ca5774ab1736acddc83edd261",
+           "bounding_box": {
+            "width": 100,
+            "height": 100
+           }
+          },
+          "medium": {
+           "url": "https://images.rapgenius.com/avatars/medium/04d14b7ca5774ab1736acddc83edd261",
+           "bounding_box": {
+            "width": 300,
+            "height": 400
+           }
+          }
+         },
+         "header_image_url": "https://images.rapgenius.com/avatars/medium/04d14b7ca5774ab1736acddc83edd261",
+         "human_readable_role_for_display": null,
+         "id": 1549345,
+         "iq": 0,
+         "login": "pressburg",
+         "name": "pressburg",
+         "role_for_display": null,
+         "url": "https://genius.com/pressburg",
+         "current_user_metadata": {
+          "permissions": [],
+          "excluded_permissions": [
+           "follow"
+          ],
+          "interactions": {
+           "following": false
+          }
+         }
+        }
+       }
+      ],
+      "cosigned_by": [],
+      "rejection_comment": null,
+      "verified_by": null
+     }
+    ]
+   },
+   "lyrics_marked_complete_by": null,
+   "lyrics_marked_staff_approved_by": null,
+   "media": [],
+   "producer_artists": [],
+   "song_relationships": [
+    {
+     "relationship_type": "samples",
+     "type": "samples",
+     "songs": []
+    },
+    {
+     "relationship_type": "sampled_in",
+     "type": "sampled_in",
+     "songs": []
+    },
+    {
+     "relationship_type": "interpolates",
+     "type": "interpolates",
+     "songs": []
+    },
+    {
+     "relationship_type": "interpolated_by",
+     "type": "interpolated_by",
+     "songs": []
+    },
+    {
+     "relationship_type": "cover_of",
+     "type": "cover_of",
+     "songs": []
+    },
+    {
+     "relationship_type": "covered_by",
+     "type": "covered_by",
+     "songs": []
+    },
+    {
+     "relationship_type": "remix_of",
+     "type": "remix_of",
+     "songs": []
+    },
+    {
+     "relationship_type": "remixed_by",
+     "type": "remixed_by",
+     "songs": []
+    },
+    {
+     "relationship_type": "live_version_of",
+     "type": "live_version_of",
+     "songs": []
+    },
+    {
+     "relationship_type": "performed_live_as",
+     "type": "performed_live_as",
+     "songs": []
+    },
+    {
+     "relationship_type": "translation_of",
+     "type": "translation_of",
+     "songs": []
+    },
+    {
+     "relationship_type": "translations",
+     "type": "translations",
+     "songs": []
+    }
+   ],
+   "translation_songs": [],
+   "verified_annotations_by": [],
+   "verified_contributors": [],
+   "verified_lyrics_by": [],
+   "writer_artists": [],
+   "artist": "Genio & Baby Johnny",
+   "lyrics": "1 ContributorQue es la que hay LyricsYo no quiero novia ella no quiere novio\nY sin compromiso y nadie dice naa\nLo de ella es romper el suelo\nJuega con su pelo me lleva hasta el cielo\nPor eso quiero mass\n\nMe voy a tirar pa que salgamos\nPa ver pa donde es que vamos\nYo se que ella nunca me va decir que no\nY le digo cuando le llamo...\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nTu sabes la que hay pa hoy\nMami que por ti voy\nNadie te da el castigo que te doy\nRapidito como floy\nAndamos en guillaera en el roy roy\nHuyendo como pa el los tiempos de dinoy\nY ellos saben quien yo soe\nNo se te pegan aunque saben que no somos novios\nPo que saben lo que doy\nSi se lamben saco el toy\nCon los de la nazza sin este roy\nPerro fuerte pa partirte hoy\nYou might also likeRequero llego tu ruboy sin compromiso que somos pana\nPrendemos desde por la ma\u00f1ana\nNo temo la ganas\nAunque aveces me siento culpable\nPor que da\u00f1e tu mente sana\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nTu sabes quien yo soe ma\nMami no te hagas tamos en vivo en la disco no apaga\nSiempre ready adentro y el que se lamba se caga yo\nSiempre ando con la paca pa que la pase bien\nBotellas de champa\u00f1a muevete no se apaga\nParate del asiento dejame contento\nEl guti te siento es el momento mahi\nDisfrutate la nota que te sube y que te va y dime que es la que hay\n\nRequero llego tu ruboy sin compromiso que somos pana\nPrendemos desde por la ma\u00f1ana\nNo temo la ganas\nAunque aveces me siento culpable\nPor que da\u00f1e tu mente sana\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nQUE ES LA QUE HAY\nGENIO Y BABY JHONNY\nIMPERIO NAZZA GOLD EDITIONEmbed\nYo no quiero novia ella no quiere novio\nY sin compromiso y nadie dice naa\nLo de ella es romper el suelo\nJuega con su pelo me lleva hasta el cielo\nPor eso quiero mass\n\nMe voy a tirar pa que salgamos\nPa ver pa donde es que vamos\nYo se que ella nunca me va decir que no\nY le digo cuando le llamo...\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nTu sabes la que hay pa hoy\nMami que por ti voy\nNadie te da el castigo que te doy\nRapidito como floy\nAndamos en guillaera en el roy roy\nHuyendo como pa el los tiempos de dinoy\nY ellos saben quien yo soe\nNo se te pegan aunque saben que no somos novios\nPo que saben lo que doy\nSi se lamben saco el toy\nCon los de la nazza sin este roy\nPerro fuerte pa partirte hoy\n\nRequero llego tu ruboy sin compromiso que somos pana\nPrendemos desde por la ma\u00f1ana\nNo temo la ganas\nAunque aveces me siento culpable\nPor que da\u00f1e tu mente sana\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nTu sabes quien yo soe ma\nMami no te hagas tamos en vivo en la disco no apaga\nSiempre ready adentro y el que se lamba se caga yo\nSiempre ando con la paca pa que la pase bien\nBotellas de champa\u00f1a muevete no se apaga\nParate del asiento dejame contento\nEl guti te siento es el momento mahi\nDisfrutate la nota que te sube y que te va y dime que es la que hay\n\nRequero llego tu ruboy sin compromiso que somos pana\nPrendemos desde por la ma\u00f1ana\nNo temo la ganas\nAunque aveces me siento culpable\nPor que da\u00f1e tu mente sana\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nDime que la que hay pa hoy\nY cuando este ready que por ti voy\nLa discoteca nos espera ando en guillaera\nPide lo que quieras tu sabes quien yo soy\n\nQUE ES LA QUE HAY\nGENIO Y BABY JHONNY\nIMPERIO NAZZA GOLD EDITION"
+  }
+ ]
+}

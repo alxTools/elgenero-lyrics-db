@@ -2,11 +2,11 @@
 *.DS_Store
 .venv/
 # API credentials
-*.ini
+#*.ini
 
 # May not want to commit lyrics text files
-*.txt
-*.json
+#*.txt
+cleaned_data/*.json
 
 # Jupyter
 /Notebooks
