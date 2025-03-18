@@ -1,6 +1,6 @@
 # macOS
 *.DS_Store
-
+.venv/
 # API credentials
 *.ini
 
