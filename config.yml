@@ -1,7 +1,7 @@
 base_model: mistral:7b
 adapter: lora
 datasets:
-  - path: dataset_lyrics_fixed.jsonl
+  - path: datasets/dataset_lyrics_fixed.jsonl
 train:
   output_dir: reggaeton_lyrics_finetuned
   per_device_train_batch_size: 2

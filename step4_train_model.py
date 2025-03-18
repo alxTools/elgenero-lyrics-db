@@ -10,7 +10,7 @@ torch.backends.cudnn.benchmark = True  # Optimizes for performance
 torch.backends.cuda.matmul.allow_tf32 = True  # Uses TF32 for faster training
 
 # ✅ Load Dataset
-dataset = load_dataset("json", data_files="dataset_lyrics_fixed.jsonl", split="train")
+dataset = load_dataset("json", data_files="datasets/dataset_lyrics_fixed.jsonl", split="train")
 
 # ✅ Load Tokenizer
 model_name = "mistralai/Mistral-7B-v0.1"

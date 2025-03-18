@@ -59,7 +59,7 @@ def clean_json_file(file_path, output_dir):
 
 def process_directory(directory):
     """Processes all JSON files in the specified directory."""
-    output_dir = os.path.join(directory, "cleaned_data")
+    output_dir = os.path.join(directory, "datasets/cleaned_data")
     for file_name in os.listdir(directory):
         if file_name.endswith(".json"):
             file_path = os.path.join(directory, file_name)
