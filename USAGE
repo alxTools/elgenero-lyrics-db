@@ -1,0 +1,10 @@
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install bitsandbytes --extra-index-url https://jllllll.github.io/bitsandbytes-windows-webui
+
+python -c "import torch; print(torch.cuda.is_available())"
+
+
+ollama create reggaeton-lyrics -f Modelfile
+OLLAMA_ADAPTER=./finetuned_reggaeton ollama run mistral:7b "Escribe una canción sobre una bailoteo inesperado con una gata cuando estabas de vacaciones en otra ciudad que creas."
+
+ollama run reggaeton-lyrics --verbose "Escribe una canción sobre una bailoteo inesperado con una gata cuando estabas de vacaciones en otra ciudad que creas."
